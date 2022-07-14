@@ -36,6 +36,7 @@ form {
   outline: 0;
   border: 0;
   font-size: 1.1em;
+  border-radius: 10px;
 }
 
 #submit-btn {
@@ -44,6 +45,7 @@ form {
   border: 0;
   outline: 0;
   font-size: 1.1em;
+  border-radius: 10px;
 }
 
 #submit-btn:hover {
@@ -72,4 +74,6 @@ form {
   border-left: 0;
   border-right: 0;
   padding: 12px;
+  border-radius: 10px;
+  background-color: white;
 }

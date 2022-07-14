@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 .container h1 {
@@ -29,13 +30,17 @@
 }
 
 .card {
-  padding: 20px;
-  border: 0.4rem solid purple;
-  border-radius: 30 px;
+  padding: 16px;
+  border: 0.25rem solid rgb(213, 218, 173);
+  border-radius: 10px;
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(244, 172, 244);
+  background-color: rgb(213, 218, 173);
+  box-shadow: 20px 12px 6px gray ;
+  margin: 5.5px;
+  width: 30%;
+  font-size: 18px;
 }
 
 #output {
@@ -47,11 +52,4 @@
   
   }
 
-  button {
-    margin-top: 24px;
-    padding: 14px 10px;
-    font-size: 1.5 rem;
-    border-radius: 5px;
-    justify-content: center;
     
-    }  
